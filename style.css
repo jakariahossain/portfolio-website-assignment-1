@@ -1,0 +1,279 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}
+section{
+    min-height: 450px;
+    margin: 60px 0;
+}
+.half_width{
+    width: 50%;
+    float: left;
+}
+h1{
+    color: #363958;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+h2{
+    color: #363958;
+    text-transform: uppercase;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+p{
+    color: #3E3E3E;
+    line-height: 25px;
+}
+.clearfloat{
+    clear: both;
+}
+
+/* Header */
+#header{
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 0px 3px grey;
+}
+.logo{
+    float: left;
+}
+.logo img{
+    width: 280px;
+    padding-top: 25px;
+}
+.menubar{
+    float: right;
+}
+.menubar nav ul{
+    padding-top: 25px;
+}
+.menubar nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+.menubar nav ul li a{
+    text-decoration: none;
+    background-image: linear-gradient(110deg,#07b5cd, #4b18cc, #ce0087);
+    color: #fff;
+    padding: 8px 20px;
+    border-radius: 0px;
+    font-weight: 500;
+    border-radius: 3px;
+}
+.menubar nav ul li a:hover{
+    background-image: linear-gradient(130deg, #4b18cc, #ce0087);
+}
+
+/* Banner */
+.highlight_text{
+    color: #e215af;
+    font-size: 37px;
+    font-weight: 800;
+}
+.button_common{
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 15px;
+    background-image: linear-gradient(130deg, #07b5cd, #4b18cc, #ce0087);
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 150px;
+    display: inline-block;
+    
+}
+.button_common:hover{
+    background-image: linear-gradient(130deg, #4b18cc, #ce0087);
+}
+#banner img{
+    width: 400px;
+    float: right;
+    
+}
+
+/* About */
+#about img:first-child{
+    width: 400px;
+    float: left;
+}
+#about a:last-child img{
+    width: 15px;
+    margin-right: 5px;
+    float: left;
+}
+
+/* Work */
+#work{
+    background: #E5E5E5;
+    padding: 80px 0;
+}
+#work h2{
+    text-align: center;
+    margin-bottom: 70px;
+}
+#work_main{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.work_history{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    background: #fff;
+    padding: 15px;
+    height: 280px;
+    border-radius: 8px;
+    box-shadow: 3px 6px 3px #c7c7c7;
+
+}
+.work_history h3{
+    color: #363958;
+}
+.work_history img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.work_history h3{
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.work_history p{
+    color: #6C6C6C;
+    font-size: 14px;
+}
+
+/* Portfolio */
+
+#portfolio{
+    margin-top: 80px;
+    min-height: 235px;
+}
+
+
+#portfolio_bg {
+    background-image: url(images/work_inquery.png);
+    width: 55%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 194px;
+}
+#portfolio_content{
+    padding: 70px 50px;
+}
+.port_left{
+    float: left;
+}
+.port_left h1{
+    color: #fff;
+    letter-spacing: -1px;
+}
+.work_btn{
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 15px;
+    background: #07b5cd;
+    color: #fff;
+    border-radius: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+    width: 150px;
+    display: inline-block;
+}
+.port_right{
+    float: right;
+}
+
+/* Contact  */
+#contact_form{
+    width: 60%;
+    margin: 20px auto;
+}
+#contact_form h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#contact_form p{
+    font-size: 15px;
+    text-align: center;
+}
+form{
+    margin: 40px 0;
+}
+form label{
+    width: 100%;
+    display: block;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+form input[type=text], input[type=email], select, textarea{
+    width: 100%;
+    display: block;
+    padding: 8px 10px;
+    color: #434950;
+    background-color: #fff;
+    border: 1px solid #ced4da;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    font-size: 16px;
+
+
+}
+form input[type="text"]:focus, input[type=email]:focus, select:focus, textarea:focus{
+    outline: none;
+}
+form input[type=submit]{
+    width: 100%;
+    display: block;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+#connected{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+#connected h3{
+    color: #696871;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+#connected h2{
+    text-transform: lowercase;
+}
+#connected img{
+    width: 50px;
+    margin: 0 20px;
+}
+footer{
+    width: 100%;
+    height: 60px;
+    box-shadow: 0px 0px 4px rgb(126, 126, 126);
+}
+footer p{
+    padding-top: 20px;
+    text-align: center;
+    font-weight: 500;
+}
+footer a{
+    text-decoration: none;
+    color: deeppink;
+}
+
+
